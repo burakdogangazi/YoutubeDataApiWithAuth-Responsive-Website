@@ -55,7 +55,6 @@
       </div>
       </section>      
                 	
-    
     <section id="about-me">
       <div class="container px-5">
           <div class="row gx-5 align-items-center">
@@ -152,26 +151,32 @@
 
       <div class="container mb-4 containerColor" style="border: 3px solid black;">
 
-        <p>Login With Google</p>
+        <p style="margin: 10px;">Login With Google</p>
 
-        <button class="btn btn-primary" id="authorize-button">Log In</button>
-        <button class="btn btn-primary" id="signout-button">Log Out</button>
-
+        <button class="btn btn-primary" style="margin: 10px;" id="authorize-button">Log In</button>
+        <button class="btn btn-primary" style="margin: 10px;" id="signout-button">Log Out</button>
 
         <div id="content">
             <div class="row">
               <div class="col">
                 <form id="channel-form">
                   <div class="mb-3">
-                    <label for="ChannelName" class="form-label">Channel Name</label>
-                    <input id="channel-input" placeholder="Enter Channel Name" type="text" class="form-control">
+                    <label for="ChannelName" class="form-label" style="margin: 10px;" >Channel Name</label>
+                    <input id="channel-input" placeholder="Enter Channel Name" style="margin: 10px;" type="text" class="form-control">
                   </div>
-                  <button value="SubmittingForChannelData" type="submit" class="btn btn-primary">Submit</button>
+                  <button value="SubmittingForChannelData" type="submit"  style="margin: 10px;" class="btn btn-primary">Submit</button>
                 </form>
               </div>
-              <div class="col" id="channel-data"></div>
+              <div class="row" id="channel-data"></div>
             </div>
             <div id="video-container" class="row">
+              <div class="row">
+                <div class="card m-3"">
+                    <div class="card-body">
+                          <!-- Video Iframe Content -->
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
       </div>

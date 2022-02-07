@@ -123,15 +123,14 @@ function requestVideoPlaylist(playlistId){
 
         if(playlistItems){
 
-            let output = '<h4>Latest Videos</h4>';
+            let output = '<h2 class="text-center">Latest Videos</h2>';
 
             playlistItems.forEach(item => {
 
                 const videoId = item.snippet.resourceId.videoId;
                 output += `
-                    <div class="col">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
-                    </div>
+
+                    <iframe style="inline" width="400" height="220" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
                 `;
             });
@@ -143,5 +142,10 @@ function requestVideoPlaylist(playlistId){
         }
     });
 }
+
+
+// <div class="row">
+// <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+// </div>
 
 
