@@ -1,0 +1,18 @@
+.card{
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px; 
+}
+#content, #authorize-button, #signout-button{
+    display: none;
+}
+
+[class~=containerColor]:hover {
+    background-color:rgb(245, 193, 243);
+    transition: width 1s, height 1s, background-color 2.5s, transform 1s;
+}
+
+.nav-item a:hover{
+    border: 1px solid rgb(238, 234, 234);
+}
+
