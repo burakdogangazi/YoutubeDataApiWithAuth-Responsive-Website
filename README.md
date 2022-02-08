@@ -46,9 +46,7 @@ References:
 
 [Reference-1](https://developers.google.com/youtube/v3/getting-started)
 
-[Reference-2](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
-
-[Reference-3](https://developer.mozilla.org/en-US/docs/Web/API/Request)
+[Reference-2](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 
 
 
